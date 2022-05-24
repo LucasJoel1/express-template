@@ -7,10 +7,6 @@ app.set('views', './src/templates');
 app.use(express.static(static));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
-
-get;
-
 app.listen(port, () => {
     console.log(`\nlistening on port ${port}`);
     console.log(`visit http://localhost:${port}`);
