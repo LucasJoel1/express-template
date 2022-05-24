@@ -1,9 +1,8 @@
-const imports = require('../imports.js');
-const globals = require('../globals.js');
-imports.app.use(imports.bodyParser.urlencoded({ extended: true }));
+const { app, bodyParser } = require('../imports.js');
+app.use(bodyParser.urlencoded({ extended: true }));
 
 module.exports = {
-    form: imports.app.post('/form', (req, res) => {
+    form: app.post('/form', (req, res) => {
         console.log(req.body);
         res.redirect('/form');
     })
