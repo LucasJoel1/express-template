@@ -1,8 +1,9 @@
-const { fs } = require('../imports.js');
+const fs = require('node:fs');
 const fileNames = fs.readdirSync('src/post');
-files = {};
-for(let i = 0; i < fileNames.length; i++) {
-    files[fileNames[i].split(".")[0]] = require(`../post/${fileNames[i]}`);
+const files = {};
+
+for (const fileName of fileNames) {
+    files[fileName.split('.')[0]] = require(`../post/${fileName}`);
 }
-console.log(`Post request files founed: ${fileNames}`);
-module.exports = files
+console.log(`Post request files found: ${fileNames}`);
+module.exports = files;

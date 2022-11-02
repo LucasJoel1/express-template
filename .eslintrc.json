@@ -35,7 +35,7 @@
     "comma-spacing": "error",
     "comma-style": "error",
     "yoda": ["error", "never", { "exceptRange": true }],
-    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "indent": ["error", 4, { "SwitchCase": 1 }],
     "quotes": ["warn", "single", { "avoidEscape": true }],
     "semi": ["warn", "always"],
     "keyword-spacing": [
