@@ -2,7 +2,8 @@ const { app, express, bodyParser } = require('./imports.js');
 const { port, static } = require('./globals.js');
 const get = require('./routes/get.js');
 const post = require('./routes/post.js');
-const api = require('./routes/api.js')
+const api = require('./routes/api.js');
+
 app.set('view engine', 'ejs');
 app.set('views', './src/templates');
 app.use(express.static(static));
