@@ -6,5 +6,6 @@ for (const fileName of fileNames) {
     files[fileName.split('.'[0])] = require(`../api/${fileName}`);
 }
 
-console.log(`API request files found: ${fileNames}`);
+console.log(`API request files found: ${fileNames.join(', ')}`);
+
 module.exports = files;
