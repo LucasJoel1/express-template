@@ -9,8 +9,11 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
+  "engines": {
+    "node": ">=14"
+  },
   "author": "",
-  "license": "ISC",
+  "license": "GNU",
   "dependencies": {
     "body-parser": "^1.20.1",
     "ejs": "^3.1.8",
