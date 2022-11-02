@@ -1,8 +1,10 @@
-const { fs } = require('../imports.js');
+const fs = require('node:fs');
 const fileNames = fs.readdirSync('src/get');
-files = {};
-for(let i = 0; i < fileNames.length; i++) {
-    files[fileNames[i].split(".")[0]] = require(`../get/${fileNames[i]}`);
+const files = {};
+
+for (const fileName of fileNames) {
+    files[fileName.split('.')[0]] = require(`../get/${fileName}`);
 }
-console.log(`Get request files founed: ${fileNames}`);
-module.exports = files
+
+console.log(`Get request files found: ${fileNames}`);
+module.exports = files;

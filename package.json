@@ -1,20 +1,26 @@
 {
-  "name": "elegenor-scout",
+  "name": "express-example",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.1",
     "ejs": "^3.1.8",
-    "express": "^4.18.1",
-    "fs": "^0.0.1-security",
-    "http": "^0.0.1-security",
-    "nodemon": "^2.0.16",
-    "timers": "^0.1.1"
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.4.0",
+    "eslint-plugin-unicorn": "^44.0.2",
+    "nodemon": "^2.0.20"
   }
 }
