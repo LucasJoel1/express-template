@@ -2,9 +2,9 @@
 A simple express template
 
 ## Install and Run:
-```git
+```sh
 git clone https://github.com/LucasJoel1/express-template.git
-cd template
+cd express-template
 npm install
 npm start
 ```
