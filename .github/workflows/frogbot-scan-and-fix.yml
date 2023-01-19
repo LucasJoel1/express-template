@@ -11,6 +11,9 @@ name: "Frogbot Scan and Fix"
 on:
   schedule:
   - cron: "0 21 * * *"
+  push:
+    branches:
+    - master
 permissions:
   contents: write
   pull-requests: write
