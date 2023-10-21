@@ -1,0 +1,84 @@
+body {
+    background: #242424;
+    text-align: center;
+}
+
+.title {
+    font-size: 50px;
+    color: #fff;
+    margin: 20px 0;
+    text-align: center;
+    font-family: ubuntu, sans-serif;
+}
+
+.subtitle {
+    font-size: 30px;
+    color: #fff;
+    margin: 20px 0;
+    text-align: center;
+    font-family: ubuntu, sans-serif;
+}
+
+.text {
+    font-size: 20px;
+    color: #fff;
+    margin: 20px 20px;
+    text-align: center;
+    font-family: ubuntu, sans-serif;
+}
+
+/* .text link */
+.text a {
+    color: #fff;
+}
+
+.form-text {
+    width: 35%;
+    height: 40px;
+    margin: 5px 0px;
+    border: 3.5px solid #0c0c0c;
+    border-radius: 5px;
+    background: #0c0c0c;
+    color: #fff;
+    font-size: 20px;
+    font-family: ubuntu, sans-serif;
+    text-align: center;
+}
+
+.form-text:hover {
+    border: 3.5px solid #1d1d1d;
+    background: #1d1d1d;
+    color: #ffffff;
+}
+
+.form-text:focus {
+    border: 3.5px solid #1d1d1d;
+    background: #1d1d1d;
+    color: #ffffff;
+    outline: none;
+}
+
+.form-submit {
+    width: 35%;
+    height: 40px;
+    margin: 5px 0px;
+    border: 3.5px solid #0c0c0c;
+    border-radius: 5px;
+    background: #0c0c0c;
+    color: #fff;
+    font-size: 20px;
+    font-family: ubuntu, sans-serif;
+    text-align: center;
+}
+
+.form-submit:hover {
+    background: #1d1d1d;
+    border: #1d1d1d;
+    color: #fff;
+}
+
+.form-submit:active {
+    background: #2e2e2e;
+    border: #2e2e2e;
+    color: #fff;
+}
